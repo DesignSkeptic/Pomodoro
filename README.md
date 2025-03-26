@@ -40,23 +40,24 @@ Pomodoro is fully sandboxed with no entitlements (except for the Apple Events en
 ## Fork notes
 This is a fork and more advanced version of https://github.com/ivoronin/TomatoBar and makes a couple additions/modifications:
 
-- Allows 0 rest interval instead of the min of 1. Closes (https://github.com/ivoronin/TomatoBar/issues/62)
-- Increases the maximum timer duration to 2 hours/120 minutes
-- Adds an option to toggle Do Not Disturb automatically using a shortcut. The first time you start the timer you'll be prompted to add the shortcut, it will work fine afterwards (also PRed to https://github.com/ivoronin/TomatoBar/pull/82)
-- Adds sound customization: to use, open the sound folder from settings and place audio files named "windup", "ding" or "ticking" in mp3 or m4a/mp4 (aac/alac) format
-- Adds a preset selector with 4 presets you can quickly switch between
-- Adds a pause button, keyboard shortcut and URL (based on https://github.com/ivoronin/TomatoBar/pull/52)
-- Adds a skip button, keyboard shortcut and URL which can skip both work and rest (in addition to the existing rest skip notification)
-- Adds an "add a minute" button, keyboard shortcut and URL
-- Extends "stop after break" with "work" and "set" options
-- Adds a "start with break" option
-- Adds a "start timer on launch" option
-- Makes numbers in the settings editable (based on https://github.com/ivoronin/TomatoBar/pull/63)
-- Displays current interval on the start/stop button when "Stop after" is disabled
-- Turns the volume display into a percentage, adds long tap gesture on the percentage to mute/unmute (in addition to the existing double tap reset)
-- Adds an option for a full screen mask (taken from https://github.com/ivoronin/TomatoBar/pull/65)
-- Doesn't play sounds when volume is set to zero (fixes issues with e.g. multipoint bluetooth headphones)
-- Increases the minimum macOS version requirement to Monterey
+1. Allows 0 rest interval instead of the minimum of 1. Closes (https://github.com/ivoronin/TomatoBar/issues/62).
+2. Changes start button to blue.
+3. Increases the maximum timer duration to 2 hours/120 minutes.
+4. Adds an option to toggle Do Not Disturb automatically using a shortcut. The first time you start the timer, you'll be prompted to add the shortcut; it will work fine afterwards (also PRed to https://github.com/ivoronin/TomatoBar/pull/82).
+5. Adds sound customization: To use, open the sound folder from settings and place audio files named "windup," "ding," or "ticking" in mp3 or m4a/mp4 (aac/alac) format.
+6. Adds a preset selector with 4 presets you can quickly switch between.
+7. Adds a pause button, keyboard shortcut, and URL (based on https://github.com/ivoronin/TomatoBar/pull/52).
+8. Adds a skip button, keyboard shortcut, and URL which can skip both work and rest (in addition to the existing rest skip notification).
+9. Adds an "add a minute" button, keyboard shortcut, and URL.
+10. Extends "stop after break" with "work" and "set" options.
+11. Adds a "start with break" option.
+12. Adds a "start timer on launch" option.
+13. Makes numbers in the settings editable (based on https://github.com/ivoronin/TomatoBar/pull/63).
+14. Displays the current interval on the start/stop button when "Stop after" is disabled.
+15. Turns the volume display into a percentage and adds a long tap gesture on the percentage to mute/unmute (in addition to the existing double tap reset).
+16. Adds an option for a full-screen mask (taken from https://github.com/ivoronin/TomatoBar/pull/65).
+17. Doesn't play sounds when the volume is set to zero (fixes issues with, e.g., multipoint Bluetooth headphones).
+18. Increases the minimum macOS version requirement to Monterey.
 
 ## Integration with other tools
 ### Event log
