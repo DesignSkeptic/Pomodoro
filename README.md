@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/ivoronin/TomatoBar/main/TomatoBar/Assets.xcassets/AppIcon.appiconset/icon_128x128%402x.png" width="128" height="128"/>
 <p>
  
-<h1 align="center">TomatoBar fork</h1>
+<h1 align="center">The missing Pomodoro timer for MacOS</h1>
 <p align="center">
 <img src="https://img.shields.io/github/actions/workflow/status/ivoronin/TomatoBar/main.yml?branch=main"/> <img src="https://img.shields.io/github/downloads/ivoronin/TomatoBar/total"/> <img src="https://img.shields.io/github/v/release/ivoronin/TomatoBar?display_name=tag"/> <img src="https://img.shields.io/homebrew/cask/v/tomatobar"/>
 </p>
@@ -22,8 +22,10 @@ work and rest intervals, optional sounds, discreet actionable notifications, glo
 
 TomatoBar is fully sandboxed with no entitlements (except for the Apple Events entitlement, used to run the Do Not Disturb toggle shortcut).
 
+---
+
 ## Fork notes
-This fork makes a couple additions/modifications:
+This is a fork and more advanced version of https://github.com/ivoronin/TomatoBar and makes a couple additions/modifications:
 
 - Allows 0 rest interval instead of the min of 1. Closes (https://github.com/ivoronin/TomatoBar/issues/62)
 - Increases the maximum timer duration to 2 hours/120 minutes
