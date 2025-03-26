@@ -25,6 +25,7 @@ TomatoBar is fully sandboxed with no entitlements (except for the Apple Events e
 ## Fork notes
 This fork makes a couple additions/modifications:
 
+- Allows 0 rest interval instead of the min of 1. Closes (https://github.com/ivoronin/TomatoBar/issues/62)
 - Increases the maximum timer duration to 2 hours/120 minutes
 - Adds an option to toggle Do Not Disturb automatically using a shortcut. The first time you start the timer you'll be prompted to add the shortcut, it will work fine afterwards (also PRed to https://github.com/ivoronin/TomatoBar/pull/82)
 - Adds sound customization: to use, open the sound folder from settings and place audio files named "windup", "ding" or "ticking" in mp3 or m4a/mp4 (aac/alac) format
