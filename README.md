@@ -2,7 +2,8 @@
 <img src="https://raw.githubusercontent.com/ivoronin/TomatoBar/main/TomatoBar/Assets.xcassets/AppIcon.appiconset/icon_128x128%402x.png" width="128" height="128"/>
 <p>
  
-<h1 align="center">Pomodoro: The missing pomodoro timer for MacOS</h1>
+<h1 align="center">Pomodoro</h1>
+<h2>The missing Pomodoro Timer for MacOS</h2>
 <p align="center">
 <img src="https://img.shields.io/github/actions/workflow/status/ivoronin/TomatoBar/main.yml?branch=main"/> <img src="https://img.shields.io/github/downloads/ivoronin/TomatoBar/total"/> <img src="https://img.shields.io/github/v/release/ivoronin/TomatoBar?display_name=tag"/> <img src="https://img.shields.io/homebrew/cask/v/tomatobar"/>
 </p>
