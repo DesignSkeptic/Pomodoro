@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/ivoronin/TomatoBar/main/TomatoBar/Assets.xcassets/AppIcon.appiconset/icon_128x128%402x.png" width="128" height="128"/>
 <p>
  
-<h1 align="center">The missing Pomodoro timer for MacOS</h1>
+<h1 align="center">Pomodoro: The missing pomodoro timer for MacOS</h1>
 <p align="center">
 <img src="https://img.shields.io/github/actions/workflow/status/ivoronin/TomatoBar/main.yml?branch=main"/> <img src="https://img.shields.io/github/downloads/ivoronin/TomatoBar/total"/> <img src="https://img.shields.io/github/v/release/ivoronin/TomatoBar?display_name=tag"/> <img src="https://img.shields.io/homebrew/cask/v/tomatobar"/>
 </p>
@@ -17,15 +17,15 @@
 ## Overview
 Have you ever heard of Pomodoro? It’s a great technique to help you keep track of time and stay on task during your studies or work. Read more about it on <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Wikipedia</a>.
 
-TomatoBar is world's neatest Pomodoro timer for the macOS menu bar. All the essential features are here - configurable
+Pomodoro is world's neatest Pomodoro timer for the macOS menu bar. All the essential features are here - configurable
 work and rest intervals, optional sounds, discreet actionable notifications, global hotkey.
 
-TomatoBar is fully sandboxed with no entitlements (except for the Apple Events entitlement, used to run the Do Not Disturb toggle shortcut).
+Pomodoro is fully sandboxed with no entitlements (except for the Apple Events entitlement, used to run the Do Not Disturb toggle shortcut).
 
 ---
 
 ## Fork notes
-This is a fork and more advanced version of https://github.com/ivoronin/TomatoBar and makes a couple additions/modifications:
+This is a fork and more advanced version of https://github.com/ivoronin/Pomodoro and makes a couple additions/modifications:
 
 - Allows 0 rest interval instead of the min of 1. Closes (https://github.com/ivoronin/TomatoBar/issues/62)
 - Increases the maximum timer duration to 2 hours/120 minutes
@@ -47,12 +47,12 @@ This is a fork and more advanced version of https://github.com/ivoronin/TomatoBa
 
 ## Integration with other tools
 ### Event log
-TomatoBar logs state transitions in JSON format to `~/Library/Containers/com.github.ivoronin.TomatoBar/Data/Library/Caches/TomatoBar.log`. Use this data to analyze your productivity and enrich other data sources.
+Pomodoro logs state transitions in JSON format to `~/Library/Containers/com.github.ivoronin.TomatoBar/Data/Library/Caches/TomatoBar.log`. Use this data to analyze your productivity and enrich other data sources.
 ### Controlling the timer
-TomatoBar can be controlled using `tomatobar://` URLs. To start or stop the timer from the command line, use `open tomatobar://startStop`. To pause or resume use `open tomatobar://pauseResume`. To skip use `open tomatobar://skip`. To add a minute use `open tomatobar://addMinute`
+Pomodoro can be controlled using `tomatobar://` URLs. To start or stop the timer from the command line, use `open tomatobar://startStop`. To pause or resume use `open tomatobar://pauseResume`. To skip use `open tomatobar://skip`. To add a minute use `open tomatobar://addMinute`
 
 ## Older versions
-Touch bar integration and older macOS versions (earlier than Big Sur) are supported by TomatoBar versions prior to 3.0
+Touch bar integration and older macOS versions (earlier than Big Sur) are supported by Pomodoro versions prior to 3.0
 
 ## Licenses
  - Timer sounds are licensed from buddhabeats
