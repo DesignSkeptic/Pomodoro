@@ -25,6 +25,18 @@ Pomodoro is fully sandboxed with no entitlements (except for the Apple Events en
 
 ---
 
+## Other great open source mac apps:
+### Menu Bar
+- ICE: Powerful menu bar manager for macOS (https://github.com/jordanbaird/Ice)
+- TRex: Captures any text right into your Clipboard with magic of OCR (https://github.com/amebalabs/TRex)
+- reminders-menubar: Menu bar application to view and interact with reminders (https://github.com/DamascenoRafael/reminders-menubar)
+- Calendr: Menu bar calendar for macOS (https://github.com/pakerwreah/Calendr)
+### Apps
+- CotEditor: The better Plain-Text Editor for macOS (https://coteditor.com/)
+- Lulu: Firewall designed to block unknown outgoing connections (https://objective-see.org/products/lulu.html)
+
+---
+
 ## Fork notes
 This is a fork and more advanced version of https://github.com/ivoronin/TomatoBar and makes a couple additions/modifications:
 
