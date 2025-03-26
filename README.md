@@ -26,7 +26,7 @@ Pomodoro is fully sandboxed with no entitlements (except for the Apple Events en
 ---
 
 ## Fork notes
-This is a fork and more advanced version of https://github.com/ivoronin/Pomodoro and makes a couple additions/modifications:
+This is a fork and more advanced version of https://github.com/ivoronin/TomatoBar and makes a couple additions/modifications:
 
 - Allows 0 rest interval instead of the min of 1. Closes (https://github.com/ivoronin/TomatoBar/issues/62)
 - Increases the maximum timer duration to 2 hours/120 minutes
