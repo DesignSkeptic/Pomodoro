@@ -45,12 +45,12 @@ private struct IntervalsView: View {
                     Text(minStr)
                 }
             }
-            Stepper(value: $timer.currentPresetInstance.shortRestIntervalLength, in: 1 ... 120) {
+            Stepper(value: $timer.currentPresetInstance.shortRestIntervalLength, in: 0 ... 120) {
                 HStack {
                     Text(NSLocalizedString("IntervalsView.shortRestIntervalLength.label",
                                            comment: "Short rest interval label"))
                         .frame(maxWidth: .infinity, alignment: .leading)
-                    TextField("", value: $timer.currentPresetInstance.shortRestIntervalLength, formatter: ClampedNumberFormatter(min: 1, max: 120))
+                    TextField("", value: $timer.currentPresetInstance.shortRestIntervalLength, formatter: ClampedNumberFormatter(min: 0, max: 120))
                         .frame(width: 36, alignment: .trailing)
                         .multilineTextAlignment(.trailing)
                         .focused($focusedField, equals: .shortRestIntervalLength)
@@ -58,12 +58,12 @@ private struct IntervalsView: View {
                     Text(minStr)
                 }
             }
-            Stepper(value: $timer.currentPresetInstance.longRestIntervalLength, in: 1 ... 120) {
+            Stepper(value: $timer.currentPresetInstance.longRestIntervalLength, in: 0 ... 120) {
                 HStack {
                     Text(NSLocalizedString("IntervalsView.longRestIntervalLength.label",
                                            comment: "Long rest interval label"))
                         .frame(maxWidth: .infinity, alignment: .leading)
-                    TextField("", value: $timer.currentPresetInstance.longRestIntervalLength, formatter: ClampedNumberFormatter(min: 1, max: 120))
+                    TextField("", value: $timer.currentPresetInstance.longRestIntervalLength, formatter: ClampedNumberFormatter(min: 0, max: 120))
                         .frame(width: 36, alignment: .trailing)
                         .multilineTextAlignment(.trailing)
                         .focused($focusedField, equals: .longRestIntervalLength)
@@ -73,12 +73,12 @@ private struct IntervalsView: View {
             }
             .help(NSLocalizedString("IntervalsView.longRestIntervalLength.help",
                                     comment: "Long rest interval hint"))
-            Stepper(value: $timer.currentPresetInstance.workIntervalsInSet, in: 1 ... 10) {
+            Stepper(value: $timer.currentPresetInstance.workIntervalsInSet, in: 0 ... 10) {
                 HStack {
                     Text(NSLocalizedString("IntervalsView.workIntervalsInSet.label",
                                            comment: "Work intervals in a set label"))
                         .frame(maxWidth: .infinity, alignment: .leading)
-                    TextField("", value: $timer.currentPresetInstance.workIntervalsInSet, formatter: ClampedNumberFormatter(min: 1, max: 10))
+                    TextField("", value: $timer.currentPresetInstance.workIntervalsInSet, formatter: ClampedNumberFormatter(min: 0, max: 10))
                         .frame(width: 36, alignment: .trailing)
                         .multilineTextAlignment(.trailing)
                         .focused($focusedField, equals: .workIntervalsInSet)
